@@ -1,3 +1,4 @@
+
 # Real-Time Flight Monitoring and Congestion Detection
 
 This project polls live OpenSky Network aircraft state vectors around Frankfurt Airport (EDDF), publishes observations to Apache Kafka, analyzes them in a separate consumer, stores results in SQLite, and displays current observations and alerts in Streamlit.
@@ -161,3 +162,6 @@ src/
 tests/               offline normalization/consumer tests
 docker-compose.yml   local Kafka in KRaft mode and Kafka UI
 ```
+
+# flight-streaming-system
+ 8dd240f74ca0322d8c7d077b529e40d5b55ae6ef
